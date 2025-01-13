@@ -16,9 +16,56 @@ switch (day){
 //=====================================================================================================
 
 
+let month ="january";
+switch (month){
+    case "january":
+        console.log("first month")
+        break;
+        case "febuary":
+            console.log("second month")
+            break;
+            case "march":
+        console.log("3 month")
+        break;
+        case "april":
+            console.log("4 month")
+            break;
+            default:
+            console.log("more than 5")
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//===================================================================
+
 
 let marks = 50;
- switch (true) {
+ switch (false) {
     case (marks >=90 && marks <=100):
         console.log("student get A+ gread");
         break;
@@ -42,9 +89,9 @@ let marks = 50;
 
 
 
- let drink = "sting";
+ let drink = "coca";
  switch (true){
-    case(drink === "coc"|| drink=== "fanta") :
+    case(drink === "coca"|| drink=== "fanta") :
     console.log("bring to home");
     break;
     case(drink==="pepsi" || drink==="sting") :
@@ -120,3 +167,66 @@ if (num>=90){
 //     console.log(i);
 //     i++;
 // }
+
+
+
+
+//=============================================================
+
+
+
+// function
+
+
+
+function numb(b , a) {
+    return a+b;
+    
+}
+let add=numb(5 , 7)
+console.log(add)
+
+
+
+
+
+
+
+
+function sumOfTwoNumber(callback) {
+    let x = 4;
+    callback(x);
+}
+function finalResult(x) {
+    console.log(x + x);
+}
+// Pass the function reference, not the result of its invocation
+sumOfTwoNumber(finalResult);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //=========================================================================
+
+
+
+
+
+
+
+function mult (a , b){
+    return a*b;
+
+}
+let number= mult(2 , 5);
+console.log(number);
