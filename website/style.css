@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body{
+background-color: black;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: red;
+  font-size: 50px;
+}
+
+.logo{
+transition: all 0.5s ease;  
+font-size: 30px;
+}
+
+.logo:hover{
+  color: white;
+}
+
+.main ul {
+  text-decoration: none;
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  
+
+
+}
+
+.main ul li a{
+ color: red;
+ text-decoration: none;
+ font-size: 20px;
+ text-decoration: none;
+ transition: all 0.5s ease-in-out;
+}
+.main ul li a:hover{
+  color: white;
+}
+
+
+.btn{
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.4s all;
+  background-color: red;
+  border: none;
+}
+
+.btn:hover{
+  color: white;
+}
+
+.img1{
+  position:  relative;
+  top: 100px;
+}
