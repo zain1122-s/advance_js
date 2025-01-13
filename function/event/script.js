@@ -158,3 +158,12 @@ class Dog extends Animal {
 const dog1 = new Dog('Buddy', 'Golden Retriever');
 dog1.makeSound(); 
 dog1.bark(); 
+
+
+
+
+
+
+
+
+
