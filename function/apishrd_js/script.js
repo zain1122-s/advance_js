@@ -1,4 +1,4 @@
-const base_url =   "https://jsonplaceholder.typicode.com/posts";
+const base_url =   "https://icanhazdadjoke.com/";
  
 function posts_is (){
     return new Promise((resolve, reject) => {
@@ -11,8 +11,11 @@ function posts_is (){
             }else{
                 reject("failed to fetch data");
             }
-        }
-    )
-    })
+        }).then((data) => {
+            resolve(data);
+        }).catch((error) => {
+            reject(error);
+        });
+    });
 }
 
